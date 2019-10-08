@@ -1,0 +1,1 @@
+1. Create a program to tell your mood for the given day, depending from temperature, weather, hrs of night sleep and drinking coffee before leaving home.
