@@ -47,7 +47,7 @@ X = np.array(ct.fit_transform(X), dtype=np.float)
 #         5.40000000e+04],
 #        [0.00000000e+00, 0.00000000e+00, 1.00000000e+00, 3.80000000e+01,
 #         6.10000000e+04],
-#        [0.00000000e+00, 1.00000000e+00, 0.00000000e+00, 4.00000000e+01,
+# #        [0.00000000e+00, 1.00000000e+00, 0.00000000e+00, 4.00000000e+01,
 #         6.37777778e+04],
 #        [1.00000000e+00, 0.00000000e+00, 0.00000000e+00, 3.50000000e+01,
 #         5.80000000e+04],
@@ -65,3 +65,28 @@ X = np.array(ct.fit_transform(X), dtype=np.float)
 from sklearn.preprocessing import LabelEncoder
 y = LabelEncoder().fit_transform(y)
 # y == array([0, 1, 0, 0, 1, 1, 0, 1, 0, 1])
+
+# spliitting dataset into Training and Test sets
+from sklearn.model_selection import train_test_split 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0) # usually 0.2-0.3
+
+#feature scaling - scalar problem and distance in Euclidean math frame of reference
+# stanadarisation: xst = x - mean(x)/st dev (x) (to gdzies w statystyce się używa)
+# normalisation: xnorm = x - min(x)/max(x) - min(x)
+from sklearn.preprocessing import StandardScaler
+sc_X = StandardScaler()
+X_train = sc_X.fit_transform(X_train)
+X_test = sc_X.transform(X_test)
+# we don't actually need to do this for y
+sc_y = StandardScaler()
+y_train = sc_y.fit_transform(y_train.reshape(-1,1))
+# very important - do you need to fit and transform dummy variables?
+# depends - if you transform, you lose some of data interpretation (like country of origin)
+# use sensibly
+
+
+
+
+
+
+
