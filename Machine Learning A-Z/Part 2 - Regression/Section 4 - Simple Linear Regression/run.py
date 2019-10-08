@@ -34,3 +34,23 @@ regressor = LinearRegression()
 regressor.fit(X_train, y_train)
 
 # prediction of test set results
+# create vector of predictions of dep var
+y_pred = regressor.predict(X_test)
+
+# Visualising the TRAINING set results
+plt.scatter(X_train, y_train, color = 'red')
+# regressor.predict(X_train) bc we want to predict y for X_train var set
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+plt.title('Salary vs Experience (Training set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
+
+# Visualising the TEST set results
+plt.scatter(X_test, y_test, color = 'red')
+# regressor already trained!
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+plt.title('Salary vs Experience (Test set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
