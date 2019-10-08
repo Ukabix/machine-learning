@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 5 - Multiple Linear Regression/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/P14-Step-by-step-Blueprints-For-Building-Models.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/P14-Step-by-step-Blueprints-For-Building-Models.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 5 - Multiple Linear Regression/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 5 - Multiple Linear Regression/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,33 @@
               <folding>
                 <element signature="e#57#75#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -49,7 +78,14 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 5 - Multiple Linear Regression/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="e#19#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -72,9 +108,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 5 - Multiple Linear Regression/run.py" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="862" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,13 +154,6 @@
               <item name="machine learning" type="462c0819:PsiDirectoryNode" />
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
               <item name="Part 2 - Regression" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 4 - Simple Linear Regression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 2 - Regression" type="462c0819:PsiDirectoryNode" />
               <item name="Section 5 - Multiple Linear Regression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -140,6 +176,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ukabi\Documents\GitHub\machine learning\Machine Learning A-Z" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -156,18 +197,26 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="08102019">
+      <created>1570534785893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570534785893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17767504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24108322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33239037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -193,8 +242,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 5 - Multiple Linear Regression/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#19#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
