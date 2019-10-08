@@ -1,1 +1,15 @@
 Independent variables / Dependent variables
+Practical hint - replace missing number data with mean of other values
+dataset.iloc[line:line,col:col]
+
+categorical data - data that can sorted into categories where (jak klasyczna klasyfikacja!)
+
+setup:
+python libraries:
+numpy,
+pandas,
+matplotlib,
+sklearn, / simpleimputer
+
+environment:
+Spyder > Pycharm? Variable explorer, ctrl+i are very strong tools!
