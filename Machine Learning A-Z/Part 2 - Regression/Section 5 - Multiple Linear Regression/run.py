@@ -313,10 +313,35 @@ X = np.append(arr = np.ones((50, 1)).astype(int), values = X, axis = 1)
 
 
 # determine the optimal matrix of features
-X_opt = X[:,[1,2,3,4,5]]
+X_opt = X[:,[0,1,2,3,4,5]]
 # STEP 1 choose SL = 0.05
 # STEP 2 create regressor for BE
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 # STEP 3 look for predictor with highest p val
 regressor_OLS.summary()
-# biblioteki z kursu nie działają, japrdl...
+# biblioteki z kursu pozmieniały niektóre metody, japrdl...
+# eliminating predictor x2 
+# EXECUTE BLOCK
+X_opt = X[:,[0,1,3,4,5]] # eliminated 2
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+# END BLOCK
+# eliminating predictor x1 
+# EXECUTE BLOCK
+X_opt = X[:,[0,3,4,5]] # eliminated 1
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+# END BLOCK
+# eliminating predictor x2 
+# EXECUTE BLOCK
+X_opt = X[:,[0,3,5]] # eliminated 2
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+# END BLOCK
+# eliminating predictor x2 
+# EXECUTE BLOCK
+X_opt = X[:,[0,3]] # eliminated 2
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+regressor_OLS.summary()
+# END BLOCK
+# P>SL -> FIN
