@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/pomysly.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/pomysly.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
+              <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -122,9 +121,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="862" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="863" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570548279431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="08102019">
+      <created>1570565283056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570565283056</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -244,7 +250,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33239037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33239037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +310,7 @@
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/pomysly.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
+          <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="92" />
         </state>
       </provider>
     </entry>
