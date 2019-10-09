@@ -34,7 +34,7 @@ y_train = sc_y.fit_transform(y_train)"""
 # END DATA PREPROCESSING
 
 # START MODEL DESIGN
-# Fitting Multiple Linear Regression 
+# Fitting Multiple Linear Regression
 
 from sklearn.linear_model import LinearRegression
 lin_reg = LinearRegression()
@@ -43,11 +43,11 @@ lin_reg.fit(X, y)
 # Fitting Polynomial Regression to dataset
 
 from sklearn.preprocessing import PolynomialFeatures
-poly_reg = PolynomialFeatures(degree=4) # degree!
+poly_reg = PolynomialFeatures(degree=3) # degree!
 X_poly = poly_reg.fit_transform(X) # generates ones at [0] and at [2] X^deg array
 # ^ we are mounting our X_poly matrix into LinReg model as below
 lin_reg_2 = LinearRegression()
-lin_reg_2.fit(X_poly, y) #38 
+lin_reg_2.fit(X_poly, y) #38
 
 # END MODEL DESIGN
 
@@ -59,30 +59,16 @@ plt.title('truth or bluff (LinReg)')
 plt.xlabel('position level')
 plt.ylabel('salary')
 plt.show()
-# !!! pretty interesting - red = real observations, blue = predictions
+# !!!!! pretty interesting - red = real observations, blue = predictions
 
 # Visualising the Polynomial Regression results
-# START HIRES VISUAL
-X_grid = np.arange(min(X), max(X), 0.1) # output: vector 1-9.0,incrim 0.1
-X_grid = X_grid.reshape(len(X_grid), 1) # output: 1 col matrix of ^
-# END HIRES VISUAL
 plt.scatter(X, y, color = 'red')
-plt.plot(X_grid, lin_reg_2.predict(poly_reg.fit_transform(X_grid)), color = 'blue')
 plt.plot(X, lin_reg_2.predict(poly_reg.fit_transform(X)), color = 'blue')
-# lowres^^ IT'S A TRAP! poly_reg.fit_transform(X) == X_poly this time, but we can fit any other poly function here -> good practice not to use X_poly
+# ^ IT'S A TRAP! poly_reg.fit_transform(X) == X_poly this time, but we can fit any other poly function here -> good practice
 plt.title('truth or bluff (PolyReg)')
 plt.xlabel('position level')
 plt.ylabel('salary')
 plt.show()
-# !!!
+# holy shit in 3rd deg!
 
 # END VISUALISATION
-
-# START RESULT PREDICTION
-# Predicting a new result with LinReg
-lin_reg.predict([[6.5]]) # error in course! must be a 2D array! [[]]
-# Out[47]: array([330378.78787879])
-
-# Predicting a new result with PolyReg
-lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
-# Out[49]: array([158862.45265157])
