@@ -21,6 +21,11 @@ c) multivariate normality
 d) independence of errors
 e) lack of multicollinearity (wielowspółliniowość?)
 
+Support Vector Regression - SVR
+- different regression goal - minimize the error between prediction and data
+- classifies all predictor lines into 2 classes - 1 that pass the threshold (Epsilon), 2 that don't (discard this data)
+
+
 multiple linear regression
 categorical data - data that can sorted into categories where (jak klasyczna klasyfikacja!)
 dummy variables for categorical vars:
