@@ -1,5 +1,4 @@
-# Regression Template
-
+# Decision Tree Regression
 # import libraries
 import pandas as pd
 import numpy as np
@@ -26,11 +25,12 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 # normalisation: xnorm = x - min(x)/max(x) - min(x)
 
 # Feature Scaling
-from sklearn.preprocessing import StandardScaler
+"""from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
+X_train = sc_X.fit_transform(X_train)
+X_test = sc_X.transform(X_test)
 sc_y = StandardScaler()
-X = sc_X.fit_transform(X)
-y = sc_y.fit_transform(y.reshape(-1, 1))
+y_train = sc_y.fit_transform(y_train)"""
 
 
 ## END DATA PREPROCESSING
@@ -39,12 +39,9 @@ y = sc_y.fit_transform(y.reshape(-1, 1))
 # START MODEL DESIGN
 
 
-# Fitting SVR Model to dataset
-# import class
-from sklearn.svm import SVR
-# create regressor
-regressor = SVR(kernel = 'rbf') # default Gaussian
-# fit regressor to dataset
+# Fitting DTReg Model to dataset
+from sklearn.tree import DecisionTreeRegressor
+regressor = DecisionTreeRegressor(random_state = 0)
 regressor.fit(X, y)
 
 
@@ -53,27 +50,21 @@ regressor.fit(X, y)
 # START RESULT PREDICTION
 
 # Predicting a new result with PolyReg
-y_pred = sc_y.inverse_transform(regressor.predict(sc_X.transform(np.array([[6.5]]))))
-# Out[13]: array([130001.55760156])
+y_pred = regressor.predict([[6.5]])
+# Out[49]: array([150000.]))
 
 
 # START VISUALISATION
 
 
-# Visualising DVR results
-
-# START HIRES VISUAL # !remember X_grid assignments for plt.plot
+# Visualising DTReg results
+''' START HIRES VISUAL # !remember X_grid assignments for plt.plot
 X_grid = np.arange(min(X), max(X), 0.1) # output: vector 1-9.0,incrim 0.1
 X_grid = X_grid.reshape(len(X_grid), 1) # output: 1 col matrix of ^
-# END HIRES VISUAL
+ END HIRES VISUAL '''
 plt.scatter(X, y, color = 'red')
-plt.plot(X_grid, regressor.predict(X_grid), color = 'blue')
-plt.title('truth or bluff (SVR)')
+plt.plot(X, regressor.predict(X), color = 'blue')
+plt.title('truth or bluff (DTReg Model)')
 plt.xlabel('position level')
 plt.ylabel('salary')
 plt.show()
-
-
-# END VISUALISATION
-
-
