@@ -58,13 +58,31 @@ y_pred = regressor.predict([[6.5]])
 
 
 # Visualising DTReg results
-''' START HIRES VISUAL # !remember X_grid assignments for plt.plot
+''' dont use it here !# START HIRES VISUAL # !remember X_grid assignments for plt.plot
 X_grid = np.arange(min(X), max(X), 0.1) # output: vector 1-9.0,incrim 0.1
 X_grid = X_grid.reshape(len(X_grid), 1) # output: 1 col matrix of ^
- END HIRES VISUAL '''
+# END HIRES VISUAL '''
 plt.scatter(X, y, color = 'red')
 plt.plot(X, regressor.predict(X), color = 'blue')
 plt.title('truth or bluff (DTReg Model)')
 plt.xlabel('position level')
 plt.ylabel('salary')
 plt.show()
+
+
+# !!! - Below: this is how DT work - this is a FINITE/NONCONTINIOUS model
+# Much more useful in 3D visualisation
+# Visualising DTReg results
+# START HIRES VISUAL # !remember X_grid assignments for plt.plot
+X_grid = np.arange(min(X), max(X), 0.01) # output: vector 1-9.0,incrim 0.1
+X_grid = X_grid.reshape(len(X_grid), 1) # output: 1 col matrix of ^
+# END HIRES VISUAL
+plt.scatter(X, y, color = 'red')
+plt.plot(X_grid, regressor.predict(X_grid), color = 'blue')
+plt.title('truth or bluff (DTReg Model)')
+plt.xlabel('position level')
+plt.ylabel('salary')
+plt.show()
+
+
+# END VISUALISATION
