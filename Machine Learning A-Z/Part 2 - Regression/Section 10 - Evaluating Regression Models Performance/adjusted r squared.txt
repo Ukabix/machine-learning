@@ -1,0 +1,24 @@
+General idea:
+
+for SLR and MLR:
+
+since:
+ySLR = b0 + b1*x1
+yMLR = b0 + b1*x1 + b2*x2
+
+then:
+lim(SSres) -> min
+
+PROBLEM:
+but if:
+
+yMLR = b0 + b1*x1 + b2*x2 + b3*x3 + bn*xn
+
+will never decrease R^2, since the model will make a coefficient of bn*xn -> 0
+
+p - no of regressors
+n - sample size
+
+Adj R^2 = 1 - (1- R^2) * ( (n-1) / (n-p-1) )
+
+THIS MODEL PENALIZES INDEPENDENT VARS THAT DO NOT HELP THE MODEL.
