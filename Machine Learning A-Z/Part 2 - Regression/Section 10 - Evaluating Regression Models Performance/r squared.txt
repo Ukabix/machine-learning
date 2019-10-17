@@ -1,0 +1,24 @@
+General idea:
+
+let:
+y'i - projected val of yi
+
+and
+
+SSres (sum of squared residuals) =
+SUM (yi - y'i)^2
+
+and
+
+SStot (stotal sum of squares) =
+SUM (yi - yavg)^2
+
+then:
+
+R^2 = 1 - (SSres/SStot)
+
+!How to solve:
+try to get a line closest to this with regression:
+lim(SSres -> 0) :  lim(R^2 -> 1)
+
+R^2 can be negative if your SSres fits your data worse then SStot -> possible bad data quality flag and the model won't work
