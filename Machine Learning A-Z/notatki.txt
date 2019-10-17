@@ -55,3 +55,8 @@ Building a model for multiple linear regression:
 4. Bidirectional elimination
 5. Score comparison
 (2-4) stepwise regression
+
+Interesting topics to dive into:
+information entropy,
+ensemble learning - using multiple algorithms (or single one) like multiple DT to form and advanced tool (like RFR)
+
