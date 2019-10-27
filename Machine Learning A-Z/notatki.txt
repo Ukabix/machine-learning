@@ -104,3 +104,29 @@ sigma -> 0 => narrow base of the model
 Data outside the base = 0
 
 Other kernels: sigmoid, polynomial
+
+IV. Bayes Theorem
+P(A|B) = (P(B|A) * P(A)) / P(B)
+Spanner case:
+m1: 30 / hr -> P(m1) = 30/50 = 0.6
+m2: 20 / hr -> P(m2) = 20/50 = 0.4
+of all parts, 1% of all are defective -> P (Defect) = 1%
+of def parts, 50% come from m1, 50% from m2
+-> P(m1 | defect) = 50%
+-> P(m2 | defect) = 50%
+what is the prob that a part produced by m2 is defective?
+-> P(defect | m2) = ?
+
+We need:
+P(m2) = 0.4
+P(def) = 1%
+P(m2|def) = 50%
+P(def|m2) = ?
+
+BT Solution:
+P(def|m2) = (P(m2|def) * P(def))/P(m2)
+
+P = (0.5*0.01)/0.4 = 0.005/0.4 = 0.0125 = 1,25%
+
+Naive Beyes - based upon an assumption of no feature correlation
+
