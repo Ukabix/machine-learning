@@ -130,3 +130,10 @@ P = (0.5*0.01)/0.4 = 0.005/0.4 = 0.0125 = 1,25%
 
 Naive Beyes - based upon an assumption of no feature correlation
 
+V. Decision Tree Classification
+Splits/leaves are made in such a way to maximize the amount of similar data and decrease information entropy.
+- Generally an old method, but reborn thanks to upgrades that make them powerful
+- Random Forest, Gradient Boosting etc.
+- NOT BASED ON EUCLIDEAN DISTANCE!, most are based on entropy
+
+
