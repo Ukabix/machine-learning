@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" afterDir="false" />
     </list>
@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/classification_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="392">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -26,10 +26,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="409">
+              <caret line="147" selection-start-line="147" selection-end-line="147" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -122,6 +127,7 @@
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_precomputed.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 18 - Naive Bayes/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py" />
+        <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" />
       </list>
     </option>
@@ -197,6 +203,13 @@
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
               <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
               <item name="Section 19 - Decision Tree Classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 20 - Random Forest Classification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
@@ -641,17 +654,20 @@
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/Social_Network_Ads.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/classification_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="392">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="409">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
         </state>
       </provider>
     </entry>

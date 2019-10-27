@@ -136,4 +136,12 @@ Splits/leaves are made in such a way to maximize the amount of similar data and 
 - Random Forest, Gradient Boosting etc.
 - NOT BASED ON EUCLIDEAN DISTANCE!, most are based on entropy
 
-
+VI. Random Forest Classification Intuition
+Ensemble Learning - combines many ML methods into one
+1. Pick random K data points from Train set
+2. Build a DT associated to K points
+3. Choose num of Ntree trees you want to build and rep 1&2
+4. For new data point, make each one of your Ntrees predict the category to which the data points belong
+and assign the new data point to the category that wins the majority vote.
+Kinnect is based on it.
+Overfitting is an issue (when you fit too much training data into classifier that it gets lost handling data it is not used to)
