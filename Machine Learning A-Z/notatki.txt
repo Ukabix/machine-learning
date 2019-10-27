@@ -30,8 +30,6 @@ Support Vector Regression - SVR
 - different regression goal - minimize the error between prediction and data
 - classifies all predictor lines into 2 classes - 1 that pass the threshold (Epsilon), 2 that don't (discard this data)
 
-Random Forest Intuition
--
 
 !dummy variable trap - always omit one dummy variable
 example
@@ -60,3 +58,49 @@ Interesting topics to dive into:
 information entropy,
 ensemble learning - using multiple algorithms (or single one) like multiple DT to form and advanced tool (like RFR)
 
+
+CLASSIFICATION:
+
+Logistic regression:
+Probability can be expressed in range <0,1> when all indep variables == 0 or 1 (yes/no)
+So we can model from linear regression, where for all x, any y: lim y -> 0 or lim y -> 1 (cut away parts <0 and >1)
+
+Since:
+y = b0 + b1*x
+and the sigmoid function for prob is:
+p = 1 / 1 + e^-y
+we get:
+ln( p / (1 - p) ) = b0 + b1*x
+Logistic regression equation ^
+Easy :)
+
+In practice we use probability as a score.
+
+The main aim of this method is to classify the users to the right categories (pred regions)!
+
+Classifiers:
+I. Line regression (linear classifier / linear boundry)
+
+II. K - NN (Nearest neighbour):
+1) choose k no of neighbours (def 5)
+2) take k nearest neighbours of the new data point (Euclidean dist?)
+3) among K NN count the nr of data points in each category
+4) assign the new data point to the category where most NN are in
+
+III. SVM - Support Vector Machine -
+Strong sides - works well in extremes:
+Normal models - takes an ordinary stock as reference -> prediction how to classify next object
+SVM - takes data stock from the greyish area -> prediction
+1) Linear, creating positive and negative hyperlanes that are d > |max margin| from the margin line
+2) Nonlinear - mapping data to a higher diemension via mapping function - CPU INTENSIVE!
+
+!Kernel trick:
+Gaussian RBF:
+K(x, l^i) = e ^- (|x-l^i|^2) / 2sigma^2
+To check - Need to determine limes of K for given x -> 0 V x -> 1, relative to the landmark
+Also:
+sigma -> unl => wider base of the model
+sigma -> 0 => narrow base of the model
+Data outside the base = 0
+
+Other kernels: sigmoid, polynomial
