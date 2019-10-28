@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="181" selection-start-line="181" selection-end-line="181" />
+            <state relative-caret-position="594">
+              <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
             </state>
           </provider>
         </entry>
@@ -26,11 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-306" />
           </provider>
         </entry>
       </file>
@@ -61,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
@@ -140,8 +134,8 @@
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 18 - Naive Bayes/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py" />
-        <option value="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py" />
+        <option value="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" />
       </list>
     </option>
   </component>
@@ -315,7 +309,7 @@
     <frame x="796" y="0" width="744" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35734463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35734463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -612,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/data_preprocessing_template_updated2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -649,17 +636,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="52" column="10" lean-forward="true" selection-start-line="42" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
         </state>
       </provider>
     </entry>
