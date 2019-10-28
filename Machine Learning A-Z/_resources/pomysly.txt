@@ -1,1 +1,2 @@
 1. Create a program to tell your mood for the given day, depending from temperature, weather, hrs of night sleep and drinking coffee before leaving home.
+2. Create a program to optimize the product presentation in your company based on basket composition via apriori!

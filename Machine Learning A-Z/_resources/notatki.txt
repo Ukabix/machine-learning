@@ -202,4 +202,29 @@ Dendograms and dissimilarity line
 
 
 ASSOCIATION RULE LEARNING
+
 I. Apriori intuition
+- based on available data to draw connections
+
+Plan of Attack:
+Support -> Confidence -> Lift
+
+Support:
+support(M) = #user watchlists cointaining M / # user watchlists
+10 of 100 seen Exmachina = 10/100=10%
+Confidence:
+confidence(M1->M2) = # user watchlists containing M1 & M2 / # user watchlists containing M1
+40 of 100 seen Interstellar
+7 of them saw Exmachina, so 7/40 = 17.5%
+Lift - improvement of prediction
+lift(M1->M2) = confidence (M1->M2) / support (M)
+0.175 / 0.1 = 1.75
+
+^ similar to Naive Beyes
+
+Algorithm:
+1) Set min Supp and Conf
+2) Take all subsets in transactions having higher support than min support
+3) Take all the rules of these subsets having higher confidence than minimum confidence
+4) Sort the rules by decreasing lift
+
