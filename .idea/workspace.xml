@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" afterDir="false" />
     </list>
@@ -15,54 +15,66 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/classification_template.py">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="642">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 4 - Simple Linear Regression/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/data_preprocessing_template_updated2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="551">
+              <caret line="52" column="10" lean-forward="true" selection-start-line="42" selection-end-line="52" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 18 - Naive Bayes/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run.py">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="68" column="10" selection-end-line="68" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <folding>
-                <element signature="e#53#71#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -129,12 +141,13 @@
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" />
+        <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="995" />
-    <option name="width" value="929" />
+    <option name="width" value="930" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -160,56 +173,14 @@
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine learning" type="462c0819:PsiDirectoryNode" />
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 4 - Clustering" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine learning" type="462c0819:PsiDirectoryNode" />
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 14 - Logistic Regression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 15 - K-Nearest Neighbors (K-NN)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 16 - Support Vector Machine (SVM)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 17 - Kernel SVM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 18 - Naive Bayes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 19 - Decision Tree Classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 20 - Random Forest Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 4 - Clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 24 - K-Means Clustering" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
@@ -341,15 +312,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="796" y="0" width="743" height="832" extended-state="0" />
+    <frame x="796" y="0" width="744" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35785007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35734463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33238232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33238232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,13 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 4 - Simple Linear Regression/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -556,20 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 9 - Random Forest Regression/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -611,9 +561,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_precomputed.py" />
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/Social_Network_Ads.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/classification_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 18 - Naive Bayes/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="68" column="10" selection-end-line="68" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
+        <state>
           <folding>
             <element signature="e#53#71#0" expanded="true" />
           </folding>
@@ -626,16 +603,6 @@
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_poly.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="68" column="10" selection-end-line="68" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_precomputed.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_deltoid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -645,29 +612,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 18 - Naive Bayes/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/Social_Network_Ads.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/classification_template.py">
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="642">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/data_preprocessing_template_updated2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        <state>
+          <caret selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 4 - Simple Linear Regression/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="42" selection-end-line="52" selection-end-column="10" />
         </state>
       </provider>
     </entry>

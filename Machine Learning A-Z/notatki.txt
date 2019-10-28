@@ -145,3 +145,37 @@ Ensemble Learning - combines many ML methods into one
 and assign the new data point to the category that wins the majority vote.
 Kinnect is based on it.
 Overfitting is an issue (when you fit too much training data into classifier that it gets lost handling data it is not used to)
+
+Model evaluation:
+error type I - false positive, error type II - false neg (more serious)
+confusion matrix
+cumulative accuracy profile != Receiver operating character
+CAP curve analysis:
+AR = Ar/ap
+or take the 50% pop and check the chart of %:
+X<60% - rubbish
+60<X<70 - poor
+70<X<80 - good
+80<X<90 - very good
+90<X - too good, something is probably wrong (overfitting)
+
+CLUSTERING:
+I. K-means
+
+Plan of attack:
+1. Choose num K of clusters
+2. Select random K points - the centroids
+3. Assign each data point closest to the closest centroid (centre of weight) -> clusters formed
+4. Compute and place the new centroid for each cluster
+5. Reassign each data point to the new closest centroid.
+If any reassignment took place, goto 4, other fin.
+
+Random Initialization Trap:
+Bad random init - the selection of the centroids can predict the outcome in some cases (false reclustering)
+The solution is to use K-Means++ instead.
+
+Choosing the number of clusters:
+Within Cluster Sum of Squares WCSS:
+General rule is that lower WCSS is better
+WCSS = 0 == cluster num = data points
+Optimal WCSS according to elbow method - compare wcss for cluster num on a chart and look for the slope
