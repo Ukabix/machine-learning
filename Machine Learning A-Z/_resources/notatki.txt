@@ -228,3 +228,15 @@ Algorithm:
 3) Take all the rules of these subsets having higher confidence than minimum confidence
 4) Sort the rules by decreasing lift
 
+REINFORCEMENT RULE LEARNING:
+- based on reward/score system
+
+Plan of attack:
+1. At each round n, consider two num for each ad i:
+- Ni(n) - the num of times the ad i was selected up to round n,
+- Ri(n) - the sum of rewards of the ad i up to round n
+2. From these two num we compute:
+- average reward of ad i up to round n ri(n) == Ri(n)/Ni(n)
+- the confidence unterval |ri(n) - deltai (n), ri(n) + delta i (n)
+with delta i (n) = sqrt [ 3 log (n) / 2 Ni(n) ]
+3. we select the ad i that has the max UCB = ri(n) + deltai (n)
