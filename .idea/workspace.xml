@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 25 - Hierarchical Clustering/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 25 - Hierarchical Clustering/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/_resources/notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/_resources/notatki.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/_resources/pomysly.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/_resources/pomysly.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
