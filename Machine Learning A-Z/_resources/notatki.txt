@@ -199,3 +199,7 @@ Note- this impacts the result.
 Dendograms and dissimilarity line
 - represented via f ( Euclidean dist | data points )
 - take a threshold that passes through the largest distance of a vertical line that is not cut via any horizontal on the graph
+
+
+ASSOCIATION RULE LEARNING
+I. Apriori intuition

@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 5 - Association Rule Learning/Section 28 - Apriori/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/Clustering-Pros-Cons.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/P14-Step-by-step-Blueprints-For-Building-Models.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/classification_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/data_preprocessing_template_updated2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/pomysly.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/DTC_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/DTC_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/DTC_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/Elbow method.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/HC_Dendrogram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/HC_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/KMeans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/KNN_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/KNN_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/KNN_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/LogReg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/LogReg_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/LogReg_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/LogReg_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/NB_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/NB_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/NB_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/RTC_1000_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/RTC_10_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/RTC_10_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/RTC_10_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/RTC_200_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/RTC_200_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/RTC_200_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVMLin_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVMLin_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVMLin_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_Deltoid_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_Deltoid_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_Deltoid_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_Poly_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_Poly_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_Poly_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_RBF_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_RBF_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/visual outputs/SVR_RBF_tr.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,22 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,6 +61,11 @@
               <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 5 - Association Rule Learning/Section 28 - Apriori/run.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -47,19 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/data_preprocessing_template_updated2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="34" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="52" column="10" lean-forward="true" selection-start-line="42" selection-end-line="52" selection-end-column="10" />
+              <caret line="52" column="10" selection-start-line="42" selection-end-line="52" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -68,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -136,6 +158,7 @@
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 20 - Random Forest Classification/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/notatki.txt" />
+        <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 5 - Association Rule Learning/Section 28 - Apriori/run.py" />
       </list>
     </option>
   </component>
@@ -167,14 +190,14 @@
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine learning" type="462c0819:PsiDirectoryNode" />
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 4 - Clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 5 - Association Rule Learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine learning" type="462c0819:PsiDirectoryNode" />
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 4 - Clustering" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 24 - K-Means Clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 5 - Association Rule Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 28 - Apriori" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
@@ -309,7 +332,7 @@
     <frame x="796" y="0" width="744" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35734463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35734463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -616,14 +639,7 @@
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -634,24 +650,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="42" selection-end-line="52" selection-end-column="10" />
+          <caret line="52" column="10" selection-start-line="42" selection-end-line="52" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/notatki.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+        <state relative-caret-position="642">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 4 - Clustering/Section 24 - K-Means Clustering/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <folding>
+            <element signature="e#53#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template_updated2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 5 - Association Rule Learning/Section 28 - Apriori/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
