@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Machine Learning A-Z/_resources/notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning A-Z/_resources/notatki.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +21,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/_resources/notatki.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="257" selection-start-line="257" selection-end-line="257" />
+            <state relative-caret-position="587">
+              <caret line="259" column="9" lean-forward="true" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+              <folding>
+                <element signature="e#73#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -71,7 +77,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="27" selection-end-line="52" selection-end-column="10" />
+              <folding>
+                <element signature="e#52#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -143,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="995" />
     <option name="width" value="930" />
     <option name="height" value="1040" />
@@ -184,6 +197,13 @@
               <item name="machine learning" type="462c0819:PsiDirectoryNode" />
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
               <item name="Part 6 - Reinforcement Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 6 - Reinforcement Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 32 - Upper Confidence Bound (UCB)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
@@ -636,9 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/_templates_current/classification_template.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -653,13 +670,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-end-line="52" selection-end-column="10" />
+          <folding>
+            <element signature="e#52#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding>
+            <element signature="e#73#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/_resources/notatki.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        <state relative-caret-position="587">
+          <caret line="259" column="9" lean-forward="true" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="9" />
         </state>
       </provider>
     </entry>
