@@ -231,6 +231,7 @@ Algorithm:
 REINFORCEMENT RULE LEARNING:
 - based on reward/score system
 
+1.Upper Confidence Boundary - DETERMINISTIC method.
 Plan of attack:
 1. At each round n, consider two num for each ad i:
 - Ni(n) - the num of times the ad i was selected up to round n,
@@ -240,3 +241,18 @@ Plan of attack:
 - the confidence unterval |ri(n) - deltai (n), ri(n) + delta i (n)
 with delta i (n) = sqrt [ 3 log (n) / 2 Ni(n) ]
 3. we select the ad i that has the max UCB = ri(n) + deltai (n)
+
+2. Thompson Sampling - PROBABILISTIC method.
+1. Runs some sample data.
+2. Guesses the distribution placement.
+3. Generates our own bandit configurations (a model how the machine distrib might work)
+4. Checks the supposition with a real world observation. Most desirable case.
+5. Updates the model with 4th value ^
+6. Next round: 1-6.
+7. Distributions are refined - Fin.
+
+UCB:
+deterministic, requires update each ound
+Thompson:
+probabilistic, can accommodate delayed feedback - flexibility!, better empirical evidence
+
