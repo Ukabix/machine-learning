@@ -31,9 +31,9 @@ for i in range(0, 1000):
 
     
 # Creating Bag of Words model
-# import class
+# sparsity reduction
 from sklearn.feature_extraction.text import CountVectorizer
-# create object
-cv = CountVectorizer()
-# fit object to dataset
+# we have 1000 columns and 1564 words, let's take the most common 1500
+cv = CountVectorizer(max_features = 1500)
 X = cv.fit_transform(corpus).toarray()
+

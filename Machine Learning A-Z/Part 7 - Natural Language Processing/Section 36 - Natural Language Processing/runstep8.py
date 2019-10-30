@@ -1,4 +1,4 @@
-# NLP - Bag of words
+# NLP - Bag of words - Mst common NB and RTC
 
 # Natural Language Processing
 
@@ -31,9 +31,34 @@ for i in range(0, 1000):
 
     
 # Creating Bag of Words model
-# import class
+# sparsity reduction
 from sklearn.feature_extraction.text import CountVectorizer
-# create object
-cv = CountVectorizer()
-# fit object to dataset
+# we have 1000 columns and 1564 words, let's take the most common 1500
+cv = CountVectorizer(max_features = 1500)
 X = cv.fit_transform(corpus).toarray()
+# include indep V to make a vector
+y = dataset.iloc[:, 1].values
+
+
+# !import classification template - NB here
+# Splitting the dataset into the Training set and Test set
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20, random_state = 0)
+
+# Feature Scaling - dont need here
+# from sklearn.preprocessing import StandardScaler
+# sc = StandardScaler()
+# X_train = sc.fit_transform(X_train)
+# X_test = sc.transform(X_test)
+
+# Fitting classifier to the Training set
+from sklearn.naive_bayes import GaussianNB
+classifier = GaussianNB()
+classifier.fit(X_train, y_train)
+
+# Predicting the Test set results
+y_pred = classifier.predict(X_test)
+
+# Making the Confusion Matrix
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
