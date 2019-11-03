@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 8 - Deep Learning/Section 40 - Convolutional Neural Networks (CNN)/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 8 - Deep Learning/Section 40 - Convolutional Neural Networks (CNN)/cnn.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,13 +67,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/runstep3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="46" selection-start-line="40" selection-end-line="46" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/run.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -154,6 +153,7 @@
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 44 - Linear Discriminant Analysis (LDA)/run.py" />
         <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/run.py" />
+        <option value="$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/run.py" />
       </list>
     </option>
   </component>
@@ -305,6 +305,13 @@
               <item name="machine learning" type="462c0819:PsiDirectoryNode" />
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
               <item name="Part 10 - Model Selection &amp; Boosting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 10 - Model Selection &amp; Boosting" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 48 - Model Selection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
@@ -481,13 +488,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 10 - Evaluating Regression Models Performance/adjusted r squared.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 9 - Random Forest Regression/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -788,6 +788,9 @@
           <caret line="46" selection-start-line="40" selection-end-line="46" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
