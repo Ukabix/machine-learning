@@ -1,8 +1,8 @@
-# PCA
+# LDA
 
-# from m indep vars PCA extracts P=<n new indep vars that
-# explain the most the variance of the dataset, regardless of the DV.
-# Because DV is not considered -> PC is an unsupervised model
+# from n IVs LDA extracts p =< n new IVs that
+# seperate the most of the classes of the DV
+# ^ this is a supervised model
 
 # import libraries
 import pandas as pd
@@ -37,16 +37,16 @@ X_test = sc_X.transform(X_test)
 ## END DATA PREPROCESSING
 
 
-# Applying PCA
+### Applying LCA
 from sklearn.decomposition import PCA
 # call PCA obj - extracting 2 principle components
 pca = PCA(n_components = 2)
-X_train = pca.fit_transform(X_train)
+X_train = pca.fit_transform(X_train, y_train)
 X_test = pca.transform(X_test)
 explained_variance = pca.explained_variance_ratio_
 
 
-#### Fitting Logistic Regression to the Training Set
+# Fitting Logistic Regression to the Training Set
 # import libraries
 from sklearn.linear_model import LogisticRegression
 classifier = LogisticRegression(random_state = 0)
@@ -84,12 +84,12 @@ X_set, y_set = X_test, y_test
 X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 1, stop = X_set[:, 0].max() + 1, step = 0.01),
                      np.arange(start = X_set[:, 1].min() - 1, stop = X_set[:, 1].max() + 1, step = 0.01))
 plt.contourf(X1, X2, classifier.predict(np.array([X1.ravel(), X2.ravel()]).T).reshape(X1.shape),
-             alpha = 0.25, cmap = ListedColormap(('red', 'green', 'grey')))
+             alpha = 0.25, cmap = ListedColormap(('red', 'green', 'blue')))
 plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
-                c = [ListedColormap(('red', 'green', 'grey'))(i)], label = j)
+                c = [ListedColormap(('red', 'green', 'blue'))(i)], label = j)
 plt.title('LogReg (Test set)')
 plt.xlabel('PC1')
 plt.ylabel('PC2')

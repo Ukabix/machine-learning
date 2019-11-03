@@ -1,8 +1,8 @@
-# PCA
+# LDA
 
-# from m indep vars PCA extracts P=<n new indep vars that
-# explain the most the variance of the dataset, regardless of the DV.
-# Because DV is not considered -> PC is an unsupervised model
+# from n IVs LDA extracts p =< n new IVs that
+# seperate the most of the classes of the DV
+# ^ this is a supervised model
 
 # import libraries
 import pandas as pd
@@ -37,16 +37,15 @@ X_test = sc_X.transform(X_test)
 ## END DATA PREPROCESSING
 
 
-# Applying PCA
-from sklearn.decomposition import PCA
-# call PCA obj - extracting 2 principle components
-pca = PCA(n_components = 2)
-X_train = pca.fit_transform(X_train)
-X_test = pca.transform(X_test)
-explained_variance = pca.explained_variance_ratio_
+# Applying LDA
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
+# call LDA obj on 2 objects to check data
+lda = LDA(n_components = 2)
+X_train = lda.fit_transform(X_train, y_train)
+X_test = lda.transform(X_test)
 
 
-#### Fitting Logistic Regression to the Training Set
+### Fitting Logistic Regression to the Training Set
 # import libraries
 from sklearn.linear_model import LogisticRegression
 classifier = LogisticRegression(random_state = 0)
@@ -73,8 +72,8 @@ for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = [ListedColormap(('orange', 'blue', 'yellow'))(i)], label = j)
 plt.title('LogReg (Training set)')
-plt.xlabel('PC1')
-plt.ylabel('PC2')
+plt.xlabel('LD1')
+plt.ylabel('LD2')
 plt.legend()
 plt.show()
 
@@ -91,7 +90,7 @@ for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = [ListedColormap(('red', 'green', 'grey'))(i)], label = j)
 plt.title('LogReg (Test set)')
-plt.xlabel('PC1')
-plt.ylabel('PC2')
+plt.xlabel('LD1')
+plt.ylabel('LD2')
 plt.legend()
 plt.show()
