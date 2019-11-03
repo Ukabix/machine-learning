@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="f617a21a-0b62-49d0-9e87-3e4ab26c8c73" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,23 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 8 - Deep Learning/Section 40 - Convolutional Neural Networks (CNN)/cnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" selection-start-line="31" selection-end-line="33" />
-              <folding>
-                <element signature="e#245#280#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 14 - Logistic Regression/run.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,18 +25,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/pca.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 44 - Linear Discriminant Analysis (LDA)/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-end-line="96" selection-end-column="10" />
-              <folding>
-                <element signature="e#149#168#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -76,24 +45,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/run.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/run.py">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/kernel_svm.R">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/run.py">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="15" />
-              <folding>
-                <element signature="e#292#310#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="68" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/grid_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="44" selection-start-line="42" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_rbf.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/kernel_svm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="68" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -246,59 +235,6 @@
               <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
               <item name="Part 3 - Classification" type="462c0819:PsiDirectoryNode" />
               <item name="Section 19 - Decision Tree Classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 7 - Natural Language Processing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 8 - Deep Learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 8 - Deep Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 39 - Artificial Neural Networks (ANN)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 8 - Deep Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 40 - Convolutional Neural Networks (CNN)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 9 - Dimensionality Reduction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 9 - Dimensionality Reduction" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 43 - Principal Component Analysis (PCA)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 9 - Dimensionality Reduction" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 44 - Linear Discriminant Analysis (LDA)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning A-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 9 - Dimensionality Reduction" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 45 - Kernel PCA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine learning" type="b2602c69:ProjectViewProjectNode" />
@@ -487,31 +423,81 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointLogExpression">
+      <expression>
+        <expression-string># Importing the libraries
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Importing the dataset
+dataset = pd.read_csv('Social_Network_Ads.csv')
+X = dataset.iloc[:, [2, 3]].values
+y = dataset.iloc[:, 4].values
+
+# Splitting the dataset into the Training set and Test set
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
+
+# Feature Scaling
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+X_train = sc.fit_transform(X_train)
+X_test = sc.transform(X_test)
+
+# Fitting Kernel SVM to the Training set
+from sklearn.svm import SVC
+classifier = SVC(kernel = 'rbf', random_state = 0)
+classifier.fit(X_train, y_train)
+
+# Predicting the Test set results
+y_pred = classifier.predict(X_test)
+
+# Making the Confusion Matrix
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
+
+# Visualising the Training set results
+from matplotlib.colors import ListedColormap
+X_set, y_set = X_train, y_train
+X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 1, stop = X_set[:, 0].max() + 1, step = 0.01),
+                     np.arange(start = X_set[:, 1].min() - 1, stop = X_set[:, 1].max() + 1, step = 0.01))
+plt.contourf(X1, X2, classifier.predict(np.array([X1.ravel(), X2.ravel()]).T).reshape(X1.shape),
+             alpha = 0.75, cmap = ListedColormap(('red', 'green')))
+plt.xlim(X1.min(), X1.max())
+plt.ylim(X2.min(), X2.max())
+for i, j in enumerate(np.unique(y_set)):
+    plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
+                c = ListedColormap(('red', 'green'))(i), label = j)
+plt.title('Kernel SVM (Training set)')
+plt.xlabel('Age')
+plt.ylabel('Estimated Salary')
+plt.legend()
+plt.show()
+
+# Visualising the Test set results
+from matplotlib.colors import ListedColormap
+X_set, y_set = X_test, y_test
+X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 1, stop = X_set[:, 0].max() + 1, step = 0.01),
+                     np.arange(start = X_set[:, 1].min() - 1, stop = X_set[:, 1].max() + 1, step = 0.01))
+plt.contourf(X1, X2, classifier.predict(np.array([X1.ravel(), X2.ravel()]).T).reshape(X1.shape),
+             alpha = 0.75, cmap = ListedColormap(('red', 'green')))
+plt.xlim(X1.min(), X1.max())
+plt.ylim(X2.min(), X2.max())
+for i, j in enumerate(np.unique(y_set)):
+    plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
+                c = ListedColormap(('red', 'green'))(i), label = j)
+plt.title('Kernel SVM (Test set)')
+plt.xlabel('Age')
+plt.ylabel('Estimated Salary')
+plt.legend()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 2 - Regression/Section 9 - Random Forest Regression/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/classification_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="12" lean-forward="true" selection-end-line="66" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding>
-            <element signature="e#27#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_precomputed.py" />
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/Social_Network_Ads.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -523,13 +509,6 @@
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 19 - Decision Tree Classification/run.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="68" column="10" selection-end-line="68" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -538,9 +517,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_rbf.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_poly.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -791,6 +767,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/run.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/kernel_svm.R">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/kernel_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="68" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run_rbf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 3 - Classification/Section 17 - Kernel SVM/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="68" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning A-Z/Part 10 - Model Selection &amp; Boosting/Section 48 - Model Selection/grid_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" selection-start-line="42" selection-end-line="44" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
